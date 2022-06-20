@@ -1,0 +1,70 @@
+/* Background colour */
+:root{
+    background-color: rgb(168, 219, 203);
+}
+
+
+/* To align the buttons at the top to the end {left} */
+header{
+    text-align: end;
+}
+
+/* properties and velues of the li selector */
+li{
+    list-style: none;
+    display: inline-block;
+    color: rgb(247, 247, 252); 
+    font-size: 150%; 
+    border: 2px solid rgb(202, 241, 214);
+    border-radius: 20px;
+    background-color: rgb(17, 204, 73);
+    padding-inline: 50px;
+    margin-inline: 30px;
+    box-shadow: 5px 5px 6px black;
+}
+
+/* This is the margin betwee the body and the beginning of the page */
+body{
+    margin: 0px;
+}
+
+
+/* properties and values of the h1 selector */
+h1{
+    color: rgb(4, 134, 73);
+    font-family: fantasy;
+    font-size: 3em;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    border-right:3px solid rgb(230, 235, 232) ;
+    width: 400px;
+    text-align: center;
+    box-shadow: 5px 5px 6px black;
+}
+
+
+/* values of the class=container holding the images */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* properties and values of the selector (images) Tis also includes the transition time */
+img{
+    width: 350px;
+    height: 300px;
+    margin: 10px;
+    transition: all 1s;
+}
+
+
+/* This to transform the images when the cursor hovers on them */
+img:hover{
+    transform: scale(1.1);
+}
+
+    
+    
+
+
